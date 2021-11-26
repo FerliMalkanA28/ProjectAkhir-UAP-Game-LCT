@@ -6,11 +6,19 @@
 
 using namespace std;
 
+void nilai (int jawab){
+	if (jawab == 'a'){
+		
+	}
+}
+
+
 int main()
 {
 	// Deklarasi seluruh variabel
 	int a, b, c, hasil;
-	char mulai;
+	char mulai, jawab;
+	int isi = 0;
 	
 	
 	// Halaman Awal
@@ -40,12 +48,20 @@ int main()
 		cout << "3. Diperbolehkan menggunakan google" << endl << endl;
 		
 		cout << "- Press any key to continue -";
-		
 		getch();
-		
 		system("CLS");
 		
-		cout << "1. Diketahui ";
+		// Soal Nomor 1
+		cout << "1. Kepanjangan dari CPU adalah....  " << endl;
+		cout << "a. Centaur Processing Utility" << endl;
+		cout << "b. Central Processing Unit" << endl;
+		cout << "c. Central Process Utility" << endl;
+		cout << "Jawab : ";
+		cin  >> jawab;
+		
+		if (jawab)
+		
+		
 	}
 	
 	else{
