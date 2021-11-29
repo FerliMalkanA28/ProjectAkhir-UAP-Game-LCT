@@ -6,18 +6,41 @@
 
 using namespace std;
 
-void nilai (int jawab){
+void poin_a (char jawab){
+	int isi = 0;
 	if (jawab == 'a'){
-		
+		isi = isi + 10;
+	}
+	else {
+		isi = isi + 0;
 	}
 }
 
+void poin_b (char jawab){
+	int isi = 0;
+	if (jawab == 'b'){
+		isi = isi + 10;
+	}
+	else {
+		isi = isi + 0;
+	}
+}
+
+void poin_c (char jawab){
+	int isi = 0;
+	if (jawab == 'c'){
+		isi = isi + 10;
+	}
+	else {
+		isi = isi + 0;
+	}
+}
 
 int main()
 {
 	// Deklarasi seluruh variabel
 	int a, b, c, hasil;
-	char mulai, jawab;
+	char mulai, jawaban;
 	int isi = 0;
 	
 	
@@ -57,11 +80,19 @@ int main()
 		cout << "b. Central Processing Unit" << endl;
 		cout << "c. Central Process Utility" << endl;
 		cout << "Jawab : ";
-		cin  >> jawab;
+		cin  >> jawaban;
 		
-		if (jawab)
+		poin_b(jawaban);
 		
+		cout << endl << endl;
 		
+		// Soal Nomor 2
+		cout << "2. " << endl;
+		cout << "a. " << endl;
+		cout << "b. " << endl;
+		cout << "c. " << endl;
+		
+		getch();
 	}
 	
 	else{
