@@ -147,7 +147,7 @@ int main()
 		cout << endl << endl;
 		
 		
-		getch();
+		getch(); 
 	}
 	
 	else{
