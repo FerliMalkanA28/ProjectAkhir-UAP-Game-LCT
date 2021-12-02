@@ -172,7 +172,6 @@ int main()
 		
 		cout << "Nilai kamu adalah : " << isi;
 		
-		
 		getch(); 
 	}
 	
