@@ -6,35 +6,35 @@
 
 using namespace std;
 
-void poin_a (char jawab){
-	int isi = 0;
-	if (jawab == 'a'){
-		isi = isi + 10;
-	}
-	else {
-		isi = isi + 0;
-	}
-}
-
-void poin_b (char jawab){
-	int isi = 0;
-	if (jawab == 'b'){
-		isi = isi + 10;
-	}
-	else {
-		isi = isi + 0;
-	}
-}
-
-void poin_c (char jawab){
-	int isi = 0;
-	if (jawab == 'c'){
-		isi = isi + 10;
-	}
-	else {
-		isi = isi + 0;
-	}
-}
+//void poin_a (char jawab){
+//	int isi = 0;
+//	if (jawab == 'a'){
+//		isi = isi + 10;
+//	}
+//	else {
+//		isi = isi + 0;
+//	}
+//}
+//
+//void poin_b (char jawab){
+//	int isi = 0;
+//	if (jawab == 'b'){
+//		isi = isi + 10;
+//	}
+//	else {
+//		isi = isi + 0;
+//	}
+//}
+//
+//void poin_c (char jawab){
+//	int isi = 0;
+//	if (jawab == 'c'){
+//		isi = isi + 10;
+//	}
+//	else {
+//		isi = isi + 0;
+//	}
+//}
 
 int main()
 {
@@ -81,8 +81,12 @@ int main()
 		cout << "c. Central Process Utility" << endl;
 		cout << "Jawab : ";
 		cin  >> jawaban;
-		
-		poin_b(jawaban);
+//		poin_b(jawaban);
+		if (jawaban == 'b'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
 		
 		cout << endl << endl;
 		
@@ -93,8 +97,12 @@ int main()
 		cout << "c. Operasi baca atau tulis" << endl;
 		cout << "Jawab : ";
 		cin  >> jawaban;
-		
-		poin_c(jawaban);
+//		poin_c(jawaban);
+		if (jawaban == 'c'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
 		
 		cout << endl << endl;
 		
@@ -105,8 +113,12 @@ int main()
 		cout << "c. Control unit" << endl;
 		cout << "Jawab : ";
 		cin  >> jawaban;
-		
-		poin_a(jawaban);
+//		poin_a(jawaban);
+		if (jawaban == 'a'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
 		
 		cout << endl << endl;
 		
@@ -117,8 +129,12 @@ int main()
 		cout << "c. Port serial" << endl;
 		cout << "Jawab : ";
 		cin  >> jawaban;
-		
-		poin_b(jawaban);
+//		poin_b(jawaban);
+		if (jawaban == 'b'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
 		
 		cout << endl << endl;
 		
@@ -129,8 +145,12 @@ int main()
 		cout << "c. 20 november 1985" << endl;
 		cout << "Jawab : ";
 		cin  >> jawaban;
-		
-		poin_c(jawaban);
+//		poin_c(jawaban);
+		if (jawaban == 'c'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
 		
 		cout << endl << endl;
 		
@@ -141,10 +161,16 @@ int main()
 		cout << "c. HTTP" << endl;
 		cout << "Jawab : ";
 		cin  >> jawaban;
-		
-		poin_b(jawaban);
+//		poin_b(jawaban);
+		if (jawaban == 'b'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
 		
 		cout << endl << endl;
+		
+		cout << "Nilai kamu adalah : " << isi;
 		
 		
 		getch(); 
@@ -154,9 +180,7 @@ int main()
 		exit(0);
 	}
 	
-	
+
 	return 0;
-	
-	
 	
 }
