@@ -72,6 +72,7 @@ int main()
 		
 		cout << "- Press any key to continue -";
 		getch();
+		getch();
 		system("CLS");
 		
 		// Soal Nomor 1
@@ -139,7 +140,7 @@ int main()
 		cout << endl << endl;
 		
 		//Soal Nomor 5
-		cout << "5. Versi pertama Microsoft Windows, yang disebut dengan Windows1.0 dirilis pada tanggal..." << endl;
+		cout << "5. Versi pertama Microsoft Windows, yang disebut dengan Windows 1.0 dirilis pada tanggal..." << endl;
 		cout << "a. 18 januari 1984" << endl;
 		cout << "b. 19 maret 1983" << endl;
 		cout << "c. 20 november 1985" << endl;
@@ -170,7 +171,79 @@ int main()
 		
 		cout << endl << endl;
 		
+		
+		//Soal Nomor 7
+		cout << "7. Biner 1101 jika dikonversikan ke dalam bentuk desimal akan bernilai...." << endl;
+		cout << "a. 13" << endl;
+		cout << "b. 9" << endl;
+		cout << "c. 5" << endl;
+		cout << "Jawab : ";
+		cin  >> jawaban;
+//		poin_a(jawaban);
+		if (jawaban == 'a'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
+		
+		cout << endl << endl;
+		
+		
+		//Soal Nomor 8
+		cout << "8. Game yang dikembangkan oleh MiHoYo yang mengadaptasi gaya grafis \n" ;
+		cout << "anime yang pada saat ini menjadi salah satu game yang terlaris di dunia bernama... " << endl;
+		cout << "a. Valorant" << endl;
+		cout << "b. Genshin Impact" << endl;
+		cout << "c. Zuma" << endl;
+		cout << "Jawab : ";
+		cin  >> jawaban;
+//		poin_b(jawaban);
+		if (jawaban == 'b'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
+		
+		cout << endl << endl;
+		
+		
+		//Soal Nomor 9
+		cout << "8. Sebutan bagi fitur lampu warna warni yang terdapat pada periferal elektronik \n" ;
+		cout << "dan dapat di atur kecepatan, kecerahan, warna, maupun animasinya adalah... " << endl;
+		cout << "a. LCT" << endl;
+		cout << "b. LED" << endl;
+		cout << "c. RGB" << endl;
+		cout << "Jawab : ";
+		cin  >> jawaban;
+//		poin_c(jawaban);
+		if (jawaban == 'c'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
+		
+		cout << endl << endl;
+		
+		
+		//Soal Nomor 10
+		cout << "10. Series gaming yang dikeluarkan oleh HP yang mana pada tahun 2020 lalu mengalami \n" ;
+		cout << "perubahan logo yang semula kompleks menjadi lebih simple memiliki nama... " << endl;
+		cout << "a. ROG" << endl;
+		cout << "b. OMEN" << endl;
+		cout << "c. LEGION" << endl;
+		cout << "Jawab : ";
+		cin  >> jawaban;
+//		poin_b(jawaban);
+		if (jawaban == 'b'){
+			isi += 10;
+		} else{
+			isi+= 0;
+		}
+		
+		cout << endl << endl;
+		
 		cout << "Nilai kamu adalah : " << isi;
+		
 		
 		getch(); 
 	}
