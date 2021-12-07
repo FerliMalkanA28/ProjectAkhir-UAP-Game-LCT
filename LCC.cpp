@@ -68,10 +68,12 @@ int main()
 		if (mulai == 'y' || mulai == 'Y'){
 			system("CLS");
 			
-			cout << "Peraturan Permainan: ";
+			cout << "Peraturan Permainan: \n";
 			cout << "1. Dilarang bekerja sama \n";
 			cout << "2. Dilarang joki \n";
-			cout << "3. Diperbolehkan menggunakan google" << endl << endl;
+			cout << "3. Diperbolehkan menggunakan google \n";
+			cout << "4. Setiap jawaban benar poin +10 \n";
+			cout << "5. Setiap jawaban salah poin -5" << endl << endl;
 			
 			cout << "- Press any key to continue -";
 			getch();
@@ -250,18 +252,27 @@ int main()
 			
 			// Opsi mengulangi program atau tidak
 	        cout << endl;
-	        cout << "Apakah Anda ingin menggunakan program ini kembali? (Input 'YA' jika ingin menggunakan kembali) ";
+	        cout << "Apakah Anda ingin menggunakan program ini kembali? (Input 'Y' atau 'y' jika ingin menggunakan kembali) ";
 	        cin  >> ulang;
 		}
 		
 		else{
+			cout << "Terima kasih telah menggunakan program ini! \n\n";
+			cout << "- Press any key to exit -";
+			getch();
+			system("CLS");
 			exit(0);
 		}
 	} 
 	
 	while (ulang == 'y' || ulang == 'Y');	
 	
-
+	cout << "\n Terima kasih telah menggunakan program ini! \n\n";
+			cout << "- Press any key to exit -";
+			getch();
+			system("CLS");
+			exit(0);
+			
 	return 0;
 	
 }
