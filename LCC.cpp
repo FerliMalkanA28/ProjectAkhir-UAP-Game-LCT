@@ -268,10 +268,10 @@ int main()
 	while (ulang == 'y' || ulang == 'Y');	
 	
 	cout << "\n Terima kasih telah menggunakan program ini! \n\n";
-			cout << "- Press any key to exit -";
-			getch();
-			system("CLS");
-			exit(0);
+	cout << "- Press any key to exit -";
+	getch();
+	system("CLS");
+	exit(0);
 			
 	return 0;
 	
