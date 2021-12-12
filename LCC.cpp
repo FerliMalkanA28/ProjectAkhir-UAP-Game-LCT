@@ -42,6 +42,9 @@ int main(){
 		if (mulai == 'y' || mulai == 'Y'){
 			system("CLS");
 			
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
 			cout << "Peraturan Permainan: \n";
 			cout << "1. Dilarang bekerja sama \n";
 			cout << "2. Dilarang melakukan praktik joki \n";
@@ -55,6 +58,9 @@ int main(){
 			system("CLS");
 			
 			// Soal Nomor 1
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
 			cout << "1. Kepanjangan dari CPU adalah....  " << endl;
 			cout << "a. Centaur Processing Utility" << endl;
 			cout << "b. Central Processing Unit" << endl;
@@ -73,6 +79,9 @@ int main(){
 			
 			
 			// Soal Nomor 2
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
 			cout << "2. Waktu akses pada RAM adalah waktu yang dibutuhkan untuk melakukan.... " << endl;
 			cout << "a. Operasi baca " << endl;
 			cout << "b. Operasi tulis" << endl;
@@ -90,6 +99,9 @@ int main(){
 			system("CLS");
 			
 			//Soal Nomor 3
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
 			cout << "3. Bagian dari CPU yang berfungsi menghubungkan seluruh bagian dari CPU adalah ...." << endl;
 			cout << "a. CPU interconnection" << endl;
 			cout << "b. Arithmetic and logic unit" << endl;
@@ -108,7 +120,11 @@ int main(){
 			
 			
 			//Soal Nomor 4
-			cout << "4. Port yang digunakan untuk menambahkan perangkat-perangkat seperti VGA card, audio card, LAN card, dan firewire adalah...." << endl;
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
+			cout << "4. Port yang digunakan untuk menambahkan perangkat-perangkat \n";
+			cout << "   seperti VGA card, audio card, LAN card, dan firewire adalah...." << endl;
 			cout << "a. Port USB" << endl;
 			cout << "b. Port ekspansi" << endl;
 			cout << "c. Port serial" << endl;
@@ -126,7 +142,11 @@ int main(){
 			
 			
 			//Soal Nomor 5
-			cout << "5. Versi pertama Microsoft Windows, yang disebut dengan Windows 1.0 dirilis pada tanggal..." << endl;
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
+			cout << "5. Versi pertama Microsoft Windows, yang disebut dengan \n";
+			cout << "   Windows 1.0 dirilis pada tanggal..." << endl;
 			cout << "a. 18 Januari 1984" << endl;
 			cout << "b. 19 Maret 1983" << endl;
 			cout << "c. 20 November 1985" << endl;
@@ -144,6 +164,9 @@ int main(){
 			
 			
 			//Soal Nomor 6
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
 			cout << "6. Alamat-alamat dalam halaman web dikenal dengan nama..." << endl;
 			cout << "a. IP" << endl;
 			cout << "b. URL" << endl;
@@ -162,7 +185,11 @@ int main(){
 			
 			
 			//Soal Nomor 7
-			cout << "7. Biner 1101 jika dikonversikan ke dalam bentuk desimal akan bernilai...." << endl;
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
+			cout << "7. Biner 1101 jika dikonversikan ke dalam bentuk \n";
+			cout << "   desimal akan bernilai...." << endl;
 			cout << "a. 13" << endl;
 			cout << "b. 9" << endl;
 			cout << "c. 5" << endl;
@@ -180,8 +207,12 @@ int main(){
 			
 			
 			//Soal Nomor 8
-			cout << "8. Game yang dikembangkan oleh MiHoYo yang mengadaptasi gaya grafis \n" ;
-			cout << "anime yang pada saat ini menjadi salah satu game yang terlaris di dunia bernama... " << endl;
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
+			cout << "8. Game yang dikembangkan oleh MiHoYo yang mengadaptasi  \n" ;
+			cout << "   gaya grafis anime yang pada saat ini menjadi salah satu \n";
+			cout << "   game yang terlaris di dunia bernama... " << endl;
 			cout << "a. Valorant" << endl;
 			cout << "b. Genshin Impact" << endl;
 			cout << "c. Zuma" << endl;
@@ -199,8 +230,12 @@ int main(){
 			
 			
 			//Soal Nomor 9
-			cout << "8. Sebutan bagi fitur lampu warna warni yang terdapat pada periferal elektronik \n" ;
-			cout << "dan dapat di atur kecepatan, kecerahan, warna, maupun animasinya adalah... " << endl;
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
+			cout << "8. Sebutan bagi fitur lampu warna warni yang terdapat  \n" ;
+			cout << "   pada periferal elektronik dan dapat di atur kecepatan, \n";
+			cout << "   kecerahan, warna, maupun animasinya adalah... " << endl;
 			cout << "a. LCT" << endl;
 			cout << "b. LED" << endl;
 			cout << "c. RGB" << endl;
@@ -218,8 +253,12 @@ int main(){
 			
 			
 			//Soal Nomor 10
-			cout << "10. Series gaming yang dikeluarkan oleh HP yang mana pada tahun 2020 lalu mengalami \n" ;
-			cout << "perubahan logo yang semula kompleks menjadi lebih simple memiliki nama... " << endl;
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
+			cout << "10. Series gaming yang dikeluarkan oleh HP yang mana pada  \n" ;
+			cout << "    tahun 2020 lalu mengalami perubahan logo yang semula \n";
+			cout << "    kompleks menjadi lebih simple memiliki nama... " << endl;
 			cout << "a. ROG" << endl;
 			cout << "b. OMEN" << endl;
 			cout << "c. LEGION" << endl;
@@ -243,7 +282,12 @@ int main(){
 			
 			Nilai_Akhir = Kalkulasi(Nilai);
 			
+			
 			// Output Nilai dan kata kata motivasi
+			cout << "======================================= \n";	
+			cout << "           Game LCT Komputer            \n";
+			cout << "======================================= \n";
+			
 			if (Nilai_Akhir == 100){
 				cout << "Nilai kamu adalah : " << Nilai_Akhir << endl;
 				cout << "Tingkatkan prestasimu!!" << endl;
@@ -257,9 +301,11 @@ int main(){
 				cout << "Terus semangat yaa belajarnya, Kamu pasti bisa!!" << endl;
 			}
 			
+			
 			// Opsi mengulangi program atau tidak
 	        cout << endl;
-	        cout << "Apakah Anda ingin menggunakan program ini kembali? (Input 'Y' atau 'y' jika ingin menggunakan kembali) ";
+	        cout << "Apakah Anda ingin menggunakan program ini kembali? \n";
+			cout << "(Input 'Y' atau 'y' jika ingin menggunakan kembali) :  ";
 	        cin  >> ulang;
 		}
 		
