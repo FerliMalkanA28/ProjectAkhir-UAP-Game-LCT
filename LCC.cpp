@@ -173,7 +173,7 @@ int main(){
 			cout << "c. HTTP" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_b(jawaban);
+
 			if (jawaban == 'b' || jawaban == 'B'){
 				poin_6 = 5;
 			} else{
@@ -276,9 +276,9 @@ int main(){
 			
 			
 			//looping kalkulasi nilai akhir
-    		for(int i = 0; i < 10; i++) {
-        		Nilai += Poin_Jawaban[i];
-    		}
+    			for(int i = 0; i < 10; i++) {
+        			Nilai += Poin_Jawaban[i];
+    			}
 			
 			Nilai_Akhir = Kalkulasi(Nilai);
 			
