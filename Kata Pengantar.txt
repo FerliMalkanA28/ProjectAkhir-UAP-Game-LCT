@@ -1,0 +1,25 @@
+KATA PENGANTAR
+
+Dengan menyebut nama Allah Subhanahu wa Ta'ala yang Maha Pengasih lagi Maha Penyayang, 
+Kami panjatkan puja dan puji syukur atas kehadirat-Nya, yang telah melimpahkan 
+rahmat, hidayah, dan inayah-Nya kepada Kami, sehingga Kami dapat menyelesaikan 
+Project Akhir sekaligus UAP mata kuliah Dasar-Dasar Pemrograman ini yang berjudul
+Game LCT Komputer.
+
+Game ini telah kami buat dengan semaksimal mungkin dan mendapatkan bantuan dari 
+berbagai pihak sehingga dapat memperlancar pembuatan game ini. Untuk itu kami 
+menyampaikan banyak terima kasih kepada semua pihak yang telah berkontribusi 
+dalam pembuatan makalah ini.
+
+Terlepas dari semua itu, kami menyadari sepenuhnya bahwa masih ada kekurangan baik
+dari segi susunan program maupun algoritmanya. Oleh karena itu, dengan tangan
+terbuka kami menerima segala saran dan kritik dari pembaca maupun pemain agar 
+kami dapat memperbaiki game ini.
+
+Akhir kata kami berharap semoga Game LCT Komputer ini dapat
+memberikan manfaat maupun inspirasi terhadap pembaca maupun pemainnya.
+
+Lampung, 12 Desember 2021  
+
+- Ferli Malkan Amien	(2117051050)
+- Ahmad Irvandi		(2117051089)
