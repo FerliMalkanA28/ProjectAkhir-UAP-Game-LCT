@@ -22,9 +22,9 @@ int main(){
 		system("CLS");
 		
 		// Halaman Awal
-		cout << "=================================== \n";	
-		cout << "Selamat Datang di Game LCT Komputer \n";
-		cout << "=================================== \n";
+		cout << "======================================= \n";	
+		cout << "  Selamat Datang di Game LCT Komputer   \n";
+		cout << "======================================= \n";
 		
 		cout << endl << endl;
 		
@@ -33,10 +33,10 @@ int main(){
 		
 		cout << endl << endl;
 		
-		cout << "- Ferli Malkan Amien (2117051050) - \n";
-		cout << "- Ahmad Irvandi (21170510--) -" << endl << endl;
+		cout << "- Ferli Malkan Amien \t (2117051050) - \n";
+		cout << "- Ahmad Irvandi \t (2117051089) -" << endl << endl;
 		
-		cout << "Mulai (y/n): ";
+		cout << " \t Mulai (y/n): ";
 		cin  >> mulai;
 		
 		if (mulai == 'y' || mulai == 'Y'){
@@ -44,12 +44,13 @@ int main(){
 			
 			cout << "Peraturan Permainan: \n";
 			cout << "1. Dilarang bekerja sama \n";
-			cout << "2. Dilarang joki \n";
-			cout << "3. Diperbolehkan menggunakan google \n";
-			cout << "4. Setiap jawaban benar diberi poin + (range 1 - 10) sesuai dengan level soal \n";
+			cout << "2. Dilarang melakukan praktik joki \n";
+			cout << "3. Diperbolehkan menggunakan Google \n";
+			cout << "4. Setiap jawaban benar diberi poin + \n";
+			cout << "   (range 1 - 10) sesuai dengan level soal \n";
 			cout << "5. Setiap jawaban salah poin -5" << endl << endl;
 			
-			cout << "- Press any key to continue -";
+			cout << " \t - Press any key to continue -";
 			getch();
 			system("CLS");
 			
@@ -90,7 +91,7 @@ int main(){
 			
 			//Soal Nomor 3
 			cout << "3. Bagian dari CPU yang berfungsi menghubungkan seluruh bagian dari CPU adalah ...." << endl;
-			cout << "a. Cpu interconnection" << endl;
+			cout << "a. CPU interconnection" << endl;
 			cout << "b. Arithmetic and logic unit" << endl;
 			cout << "c. Control unit" << endl;
 			cout << "Jawab : ";
@@ -126,9 +127,9 @@ int main(){
 			
 			//Soal Nomor 5
 			cout << "5. Versi pertama Microsoft Windows, yang disebut dengan Windows 1.0 dirilis pada tanggal..." << endl;
-			cout << "a. 18 januari 1984" << endl;
-			cout << "b. 19 maret 1983" << endl;
-			cout << "c. 20 november 1985" << endl;
+			cout << "a. 18 Januari 1984" << endl;
+			cout << "b. 19 Maret 1983" << endl;
+			cout << "c. 20 November 1985" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
 
