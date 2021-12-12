@@ -6,44 +6,18 @@
 
 using namespace std;
 
-//void poin_a (char jawab){
-//	int isi = 0;
-//	if (jawab == 'a'){
-//		isi = isi + 10;
-//	}
-//	else {
-//		isi = isi + 0;
-//	}
-//}
-//
-//void poin_b (char jawab){
-//	int isi = 0;
-//	if (jawab == 'b'){
-//		isi = isi + 10;
-//	}
-//	else {
-//		isi = isi + 0;
-//	}
-//}
-//
-//void poin_c (char jawab){
-//	int isi = 0;
-//	if (jawab == 'c'){
-//		isi = isi + 10;
-//	}
-//	else {
-//		isi = isi + 0;
-//	}
-//}
+int Kalkulasi(int x) {
+  return 2 * x;
+}
 
-int main()
-{
+int main(){
 	// Deklarasi seluruh variabel
-	int a, b, c, hasil;
+	int a, b, c, Nilai_Akhir, poin_1, poin_2, poin_3, poin_4, poin_5, poin_6, poin_7, poin_8, poin_9, poin_10;
 	char mulai, jawaban, ulang;
-	int isi = 0;
+	int Nilai = 0;
+	int Poin_Jawaban[10];
 	
-	do {
+	do{
 		
 		system("CLS");
 		
@@ -72,7 +46,7 @@ int main()
 			cout << "1. Dilarang bekerja sama \n";
 			cout << "2. Dilarang joki \n";
 			cout << "3. Diperbolehkan menggunakan google \n";
-			cout << "4. Setiap jawaban benar poin +10 \n";
+			cout << "4. Setiap jawaban benar diberi poin + (range 1 - 10) sesuai dengan level soal \n";
 			cout << "5. Setiap jawaban salah poin -5" << endl << endl;
 			
 			cout << "- Press any key to continue -";
@@ -86,14 +60,16 @@ int main()
 			cout << "c. Central Process Utility" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_b(jawaban);
+			
 			if (jawaban == 'b' || jawaban == 'B'){
-				isi += 10;
+				poin_1 = 3;
 			} else{
-				isi+= 0;
+				poin_1 = 0;
 			}
-//			cout << endl << endl;
+			
+			Poin_Jawaban[0] = poin_1;
 			system("CLS");
+			
 			
 			// Soal Nomor 2
 			cout << "2. Waktu akses pada RAM adalah waktu yang dibutuhkan untuk melakukan.... " << endl;
@@ -102,13 +78,14 @@ int main()
 			cout << "c. Operasi baca atau tulis" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_c(jawaban);
+			
 			if (jawaban == 'c' || jawaban == 'C'){
-				isi += 10;
+				poin_2 = 4;
 			} else{
-				isi+= 0;
+				poin_2 = 0;
 			}
-//			cout << endl << endl;
+
+			Poin_Jawaban[1] = poin_2;
 			system("CLS");
 			
 			//Soal Nomor 3
@@ -118,14 +95,16 @@ int main()
 			cout << "c. Control unit" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_a(jawaban);
+
 			if (jawaban == 'a' || jawaban == 'A'){
-				isi += 10;
+				poin_3 = 10;
 			} else{
-				isi+= 0;
+				poin_3 = 0;
 			}
-//			cout << endl << endl;
+
+			Poin_Jawaban[2] = poin_3;
 			system("CLS");
+			
 			
 			//Soal Nomor 4
 			cout << "4. Port yang digunakan untuk menambahkan perangkat-perangkat seperti VGA card, audio card, LAN card, dan firewire adalah...." << endl;
@@ -134,14 +113,16 @@ int main()
 			cout << "c. Port serial" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_b(jawaban);
+
 			if (jawaban == 'b' || jawaban == 'B'){
-				isi += 10;
+				poin_4 = 8;
 			} else{
-				isi+= 0;
+				poin_4 = 0;
 			}
-//			cout << endl << endl;
+
+			Poin_Jawaban[3] = poin_4;
 			system("CLS");
+			
 			
 			//Soal Nomor 5
 			cout << "5. Versi pertama Microsoft Windows, yang disebut dengan Windows 1.0 dirilis pada tanggal..." << endl;
@@ -150,14 +131,16 @@ int main()
 			cout << "c. 20 november 1985" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_c(jawaban);
+
 			if (jawaban == 'c' || jawaban == 'C'){
-				isi += 10;
+				poin_5 = 7;
 			} else{
-				isi+= 0;
+				poin_5 = 0;
 			}
-//			cout << endl << endl;
+
+			Poin_Jawaban[4] = poin_5;
 			system("CLS");
+			
 			
 			//Soal Nomor 6
 			cout << "6. Alamat-alamat dalam halaman web dikenal dengan nama..." << endl;
@@ -168,11 +151,12 @@ int main()
 			cin  >> jawaban;
 	//		poin_b(jawaban);
 			if (jawaban == 'b' || jawaban == 'B'){
-				isi += 10;
+				poin_6 = 5;
 			} else{
-				isi+= 0;
+				poin_6 = 0;
 			}
-//			cout << endl << endl;
+
+			Poin_Jawaban[5] = poin_6;
 			system("CLS");
 			
 			
@@ -183,13 +167,14 @@ int main()
 			cout << "c. 5" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_a(jawaban);
+
 			if (jawaban == 'a' || jawaban == 'A'){
-				isi += 10;
+				poin_7 = 2;
 			} else{
-				isi+= 0;
+				poin_7 = 0;
 			}
-//			cout << endl << endl;
+
+			Poin_Jawaban[6] = poin_7;
 			system("CLS");
 			
 			
@@ -201,13 +186,14 @@ int main()
 			cout << "c. Zuma" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_b(jawaban);
+
 			if (jawaban == 'b' || jawaban =='B'){
-				isi += 10;
+				poin_8 = 6;
 			} else{
-				isi+= 0;
+				poin_8 = 0;
 			}
-//			cout << endl << endl;
+
+			Poin_Jawaban[7] = poin_8;
 			system("CLS");
 			
 			
@@ -219,13 +205,14 @@ int main()
 			cout << "c. RGB" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_c(jawaban);
+
 			if (jawaban == 'c' || jawaban == 'C'){
-				isi += 10;
+				poin_9 = 2;
 			} else{
-				isi+= 0;
+				poin_9 = 0;
 			}
-//			cout << endl << endl;
+
+			Poin_Jawaban[8] = poin_9;
 			system("CLS");
 			
 			
@@ -237,25 +224,35 @@ int main()
 			cout << "c. LEGION" << endl;
 			cout << "Jawab : ";
 			cin  >> jawaban;
-	//		poin_b(jawaban);
+
 			if (jawaban == 'b' || jawaban == 'B'){
-				isi += 10;
+				poin_10 = 3;
 			} else{
-				isi+= 0;
+				poin_10 = 0;
 			}
-//			cout << endl << endl;
+
+			Poin_Jawaban[9] = poin_10;
 			system("CLS");
 			
-			if (isi == 100){
-				cout << "Nilai kamu adalah : " << isi << endl;
+			
+			//looping kalkulasi nilai akhir
+    		for(int i = 0; i < 10; i++) {
+        		Nilai += Poin_Jawaban[i];
+    		}
+			
+			Nilai_Akhir = Kalkulasi(Nilai);
+			
+			// Output Nilai dan kata kata motivasi
+			if (Nilai_Akhir == 100){
+				cout << "Nilai kamu adalah : " << Nilai_Akhir << endl;
 				cout << "Tingkatkan prestasimu!!" << endl;
 			} 
-			else if (isi < 100 && isi > 50){
-				cout << "Nilai kamu adalah : " << isi << endl;
+			else if (Nilai_Akhir < 100 && Nilai_Akhir > 50){
+				cout << "Nilai kamu adalah : " << Nilai_Akhir << endl;
 				cout << "Kamu pasti bisa mendapat 100, sedikit lagi!!" << endl;
 			}
 			else {
-				cout << "Nilai kamu adalah : " << isi << endl;
+				cout << "Nilai kamu adalah : " << Nilai_Akhir << endl;
 				cout << "Terus semangat yaa belajarnya, Kamu pasti bisa!!" << endl;
 			}
 			
@@ -279,10 +276,10 @@ int main()
 	
 	system("CLS");
 	cout << "\n Terima kasih telah menggunakan program ini! \n\n";
-			cout << "- Press any key to exit -";
-			getch();
-			system("CLS");
-			exit(0);
+	cout << "- Press any key to exit -";
+	getch();
+	system("CLS");
+	exit(0);
 			
 	return 0;
 	
