@@ -9,7 +9,7 @@ Game LCT Komputer.
 Game ini telah kami buat dengan semaksimal mungkin dan mendapatkan bantuan dari 
 berbagai pihak sehingga dapat memperlancar pembuatan game ini. Untuk itu kami 
 menyampaikan banyak terima kasih kepada semua pihak yang telah berkontribusi 
-dalam pembuatan makalah ini.
+dalam pembuatan program ini.
 
 Terlepas dari semua itu, kami menyadari sepenuhnya bahwa masih ada kekurangan baik
 dari segi susunan program maupun algoritmanya. Oleh karena itu, dengan tangan
